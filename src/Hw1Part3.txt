@@ -1,0 +1,3 @@
+The image buffer cannot be created in the canvas constructor because GrahpicsEnvironment.isHeadless() is not true.
+For it to become true, the program must display the GUI, and this happens at the frame.setVisible(true); stage (which is after the constructor call).
+The paint call however happens after the frame.setVisible(true); call through Swing.
