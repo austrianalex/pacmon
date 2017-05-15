@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: pacman.Pacman
+Class-Path: tritonus_share.jar zoom.jar mp3.jar RelativeLayout.jar
